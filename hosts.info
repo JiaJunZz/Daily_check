@@ -1,0 +1,2 @@
+FOREX  192.168.123.167 root 123456  tapinternalquote
+SHFE-网关  192.168.123.168 root 123456 tapdcequote
