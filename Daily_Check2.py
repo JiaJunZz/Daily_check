@@ -98,29 +98,33 @@ def WriteEecel(txt_fname,xls_fname):
     wb.save(xls_fname)
 
 
-def get_win():
+def get_win(ip,user,password):
+    try:
+        c = wmi.WMI(computer=ip, user=user, password=password)
 
-    c = wmi.WMI()
+        # cpu 使用率
+        cpu_usage = str(c.Win32_Processor()[0].LoadPercentage) + '%'
 
-    # cpu 使用率
-    cpu_usage = str(c.Win32_Processor()[0].LoadPercentage) + '%'
+        # 内存使用率
+        TotalMemory = int(c.Win32_ComputerSystem()[0].TotalPhysicalMemory)/1024
+        FreeMemory = int(c.Win32_OperatingSystem()[0].FreePhysicalMemory)
+        memory_usage = str(int((TotalMemory - FreeMemory)/TotalMemory*100)) + '%'
 
-    # 内存使用率
-    TotalMemory = int(c.Win32_ComputerSystem()[0].TotalPhysicalMemory)/1024
-    FreeMemory = int(c.Win32_OperatingSystem()[0].FreePhysicalMemory)
-    memory_usage = str(int((TotalMemory - FreeMemory)/TotalMemory*100)) + '%'
+        # 硬盘使用率bit
+        TotalDisk = int(int(c.Win32_LogicalDisk(DeviceID = "C:")[0].Size)/1024/1024/1024)
+        FreeDisk = int(int(c.Win32_LogicalDisk(DeviceID = "C:")[0].FreeSpace)/1024/1024/1024)
+        FreeDisk_per = str(int((FreeDisk)/TotalDisk*100)) + '%'
+        Free_per = str(FreeDisk) + '|' + str(FreeDisk_per)
 
-    # 硬盘使用率
-    TotalDisk = int(c.Win32_LogicalDisk(DeviceID = "C:")[0].Size)
-    FreeDisk = int(c.Win32_LogicalDisk(DeviceID = "C:")[0].FreeSpace)
-    Disk_usage = str(int((TotalDisk-FreeDisk)/TotalDisk*100)) + '%'
+        # 监控数据列表
+        win_res = [cpu_usage,memory_usage,Free_per,'/']
 
-    # 监控数据列表
-    win_list = [cpu_usage,'/',memory_usage,Disk_usage,'/']
+        with open(txt_fname, 'a', encoding='utf-8') as file:
+            file.write(hostname + '  ' + str(win_res) + '\n')
+    except Exception as e:
 
-    print(win_list)
-
-
+        with open(txt_fname, 'a', encoding='utf-8') as file:
+            file.write(hostname + '  ' + str(e) + '\n')
 
 
 if __name__ == '__main__':
@@ -142,13 +146,18 @@ if __name__ == '__main__':
             username = line_list[2]
             password = line_list[3]
             process = line_list[4]
-            p = Myprocess(hostname,username,password,txt_fname)
-            processes.append(p)
-            p.start()
+            os_type = line_list[5]
+            if os_type == "centos":
+                p = Myprocess(hostname,username,password,txt_fname)
+                processes.append(p)
+                p.start()
 
-        for p in processes:
-            # 等待进程退出
-            p.join()
+                for p in processes:
+                    # 等待进程退出
+                    p.join()
+            elif os_type == "windows":
+                get_win(ip=hostname, user=username, password=password)
+
 
     WriteEecel(txt_fname,xls_fname)
 
