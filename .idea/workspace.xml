@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c67f61a1-c868-424b-8b8a-a869b77c7a29" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Daily_Check2.py" afterPath="$PROJECT_DIR$/Daily_Check.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180521_093254.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180521_093711.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180521_095029.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180521_095100.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180521_095230.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180521_095845.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180521_105341.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180521_105605.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180521_105959.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180521_110316.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180521_110406.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180521_110438.txt" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -149,6 +160,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="logs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daily_check" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Daily_check" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cmd_res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -491,7 +516,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
