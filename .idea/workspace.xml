@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c67f61a1-c868-424b-8b8a-a869b77c7a29" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Daily_Check.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/a.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180311_211132.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180311_211139.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180311_211208.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180311_211215.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180311_211314.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cmd_res/20180311_211556.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/20180310_135954.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/20180311_131639.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/20180311_132143.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/20180311_193427.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/20180311_201640.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/20180311_211010.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/20180311_211024.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/20180311_211135.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/20180311_211139.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/20180311_211208.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/20180311_211217.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/20180311_211314.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/20180311_211556.xls" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/todo1.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template.xls" afterPath="$PROJECT_DIR$/template.xls" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Daily_Check2.py" afterPath="$PROJECT_DIR$/Daily_Check2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hosts.info" afterPath="$PROJECT_DIR$/hosts.info" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Daily_Check2.py" afterPath="$PROJECT_DIR$/Daily_Check.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,8 +23,8 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Daily_Check2.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Daily_Check2.py">
+      <file leaf-file-name="Daily_Check.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Daily_Check.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-778">
               <caret line="116" column="37" lean-forward="false" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
@@ -308,7 +283,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="check" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Daily_Check2.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ZJJ\PycharmProjects\study\Daily_check\Daily_Check.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -581,7 +556,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#47#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -737,7 +714,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Daily_Check2.py">
+    <entry file="file://$PROJECT_DIR$/Daily_Check.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-778">
           <caret line="116" column="37" lean-forward="false" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
@@ -750,9 +727,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Daily_Check.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="174" column="34" lean-forward="false" selection-start-line="174" selection-start-column="34" selection-end-line="174" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="-778">
+          <caret line="116" column="37" lean-forward="false" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+          <folding>
+            <element signature="e#47#62#0" expanded="true" />
+            <element signature="e#1848#2963#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
