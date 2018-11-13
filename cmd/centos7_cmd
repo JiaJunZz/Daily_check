@@ -1,0 +1,8 @@
+#CPU平均使用率
+top -bn1 | awk '/Cpu/{print $2+$4+$6}'
+#内存使用率
+free | sed -n '2p' |awk '{printf "%d\n" ,($2-$7)/$2*100}'
+#磁盘/目录使用率
+df -hP | awk '/\/$/ {print $5}' | sed s'/%//'
+#磁盘/home目录使用率
+df -hP | awk '/\/home$/{print $5}' | sed s'/%//'

@@ -1,3 +1,7 @@
-FOREX  192.168.123.166 root 123456  tapinternalquote centos
-SHFE-网关  192.168.123.168 root 123456 tapdcequote centos
-pats-网关 192.168.123.169 Administrator Zhang123 pats-gw windows
+FOREX  192.168.123.166 root 123456 centos6
+tt-网关  192.168.123.167 root 123456 centos6
+SHFE-网关  192.168.123.168 root 123456 centos6
+pats-网关 192.168.123.169 Administrator Zhang123 windows
+dce-网关  192.168.123.170 root 123456 centos7
+idcice-网关  192.168.123.171 root 123456 centos6
+idcsgx-网关  192.168.123.171 root 123456 centos6
