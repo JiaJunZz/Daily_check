@@ -3,4 +3,4 @@
 
 
 自动生成的excel文档
-![image](https://github.com/zshengsheng/Daily_check/blob/master/images_github/excelpy.png)
+![image](https://github.com/JiaJunZz/JiaJun.zz.github.io/tree/master/images/Daily_check/a.jpg)
